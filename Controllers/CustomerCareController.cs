@@ -3,6 +3,8 @@ using Microsoft.AspNetCore.Mvc;
 [Route("customer")]
 public class CustomerCareController : Controller
 {
+    [RouteAttribute("")]
+    [RouteAttribute("index")]
     public IActionResult Index()
     {
         return Ok("This is the index of the CustomerCareController");
