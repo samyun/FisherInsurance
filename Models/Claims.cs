@@ -3,12 +3,12 @@ using System;
 namespace FisherInsurance.Models
 
 {
-    public class Quote
+    public class Claims
     {
         public int ID { get; set; }
-        public string Product { get; set; }
-        public DateTime ExpireDate { get; set; }
-        public decimal Price { get; set; }
+        public string PolicyType { get; set; }
+        public DateTime LossDate { get; set; }
+        public decimal LossAmount { get; set; }
     }
 
 }

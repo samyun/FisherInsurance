@@ -4,7 +4,8 @@ public class HomeInsController : Controller
 {
     public IActionResult Index()
     {
-        return Ok("This is the index of the HomeInsController");
+        //return Ok("This is the index of the HomeInsController");
+        return View("HomeIns");
     }
     public IActionResult Quote()
     {

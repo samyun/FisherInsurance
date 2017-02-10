@@ -1,7 +1,6 @@
 using System;
 
 namespace FisherInsurance.Models
-
 {
     public class Quote
     {
@@ -10,5 +9,4 @@ namespace FisherInsurance.Models
         public DateTime ExpireDate { get; set; }
         public decimal Price { get; set; }
     }
-
 }
